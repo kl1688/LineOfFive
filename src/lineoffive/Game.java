@@ -1,7 +1,7 @@
 /*
  * Game.java
  *
- * Created on May 20, 2006, 2:11 PM
+ * Created on May 20, 2013
  *
  * To change this template, choose Tools | Options and locate the template under
  * the Source Creation and Management node. Right-click the template and choose
@@ -19,12 +19,12 @@ import java.util.*;
 
 /**
  *
- * @author aw
+ * @author KL
  */
 public class Game implements /*MouseListener*/ ActionListener 
 {
     private static int BOARD_SIZE = 19;
-    private static int CELL_DIM = 19;
+    private static int CELL_DIM = 40;
     //private static String labelPrefix = "Number of button clicks: ";
     //private int numClicks = 0;
     //final JLabel label = new JLabel(labelPrefix + "0    ");
